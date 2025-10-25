@@ -45,7 +45,7 @@ const App = () => {
             value={num}
             add={() => setNum(num + 1)}
             subtract={() => setNum(num - 1)}
-            disabledAdd={num > 10}
+            disabledAdd={num > 9}
             disabledSubstract={num < 7}
           />
         </div>
@@ -69,7 +69,7 @@ const App = () => {
               <div key={uuidv4()} className="flex justify-center">
                 {item.map((value) => (
                   <div
-                    className={`${baseCss} ${[...colors].reverse()[index]}`}
+                    className={`${baseCss} ${[...colors].splice(0, num).reverse()[index]}`}
                     key={uuidv4()}
                   >
                     {value}
