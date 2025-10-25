@@ -1,8 +1,10 @@
-## triángulo de pascal
+## Triángulo de pascal
 
 ## Descripcion
 Este proyecto es una prueba técnica que consiste en generar e imprimir el Triángulo de Pascal con un efecto de espejo.
 El programa calcula los valores de cada fila utilizando la lógica combinatoria del triángulo y luego los muestra visualmente en la interfaz.
+
+[Demo](https://jhordansteve97.github.io/triangulo-pascal/)
 
 ## Características
 
